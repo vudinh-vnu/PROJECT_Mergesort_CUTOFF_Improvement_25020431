@@ -34,7 +34,6 @@ PROJECT_Mergesort_CUTOFF_Improvement_25020431/
 │   └── ExperimentRunner.java
 ├── lib/
 │   └── algs4.jar
-├── bin/
 ├── datasets/
 │   ├── dataset_manifest.csv
 │   ├── random_N100000.txt
@@ -69,7 +68,6 @@ PROJECT_Mergesort_CUTOFF_Improvement_25020431/
 | `src/DataFactory.java` | Bộ sinh dữ liệu tất định (deterministic seed), đếm nghịch thế O(N log N) và xuất file dữ liệu mẫu. |
 | `src/ExperimentRunner.java` | Bộ điều phối thí nghiệm tự động: JIT Warm-up, quét thời gian thực, Doubling Test và đếm phép so sánh. |
 | `lib/algs4.jar` | Thư viện thuật toán chuẩn của Princeton (cung cấp `Insertion`, `Stopwatch`, `In`). |
-| `bin/` | Thư mục chứa bytecode Java (`.class`) đã biên dịch từ `src/`. |
 | `datasets/` | Dữ liệu mẫu N = 100,000 cho 4 phân phối kèm bảng băm `dataset_manifest.csv` (SHA-256). |
 | `results/` | Dữ liệu đo thô (`timing_raw.csv`, `ops_count.csv`, `doubling_test.csv`) và báo cáo số liệu (`summary_report_tables.md`). |
 | `analysis/analyze_results.py` | Script Python tính toán thống kê (Bootstrap CI, Wilcoxon, Log-Log) và tự động vẽ 5 biểu đồ 300 DPI. |
@@ -78,7 +76,7 @@ PROJECT_Mergesort_CUTOFF_Improvement_25020431/
 
 ---
 
-## 3. Hướng dẫn tái lập thực nghiệm (Reproducibility)
+## 3. Hướng dẫn tái lập thực nghiệm
 
 Thực thi tuần tự các câu lệnh sau trong **PowerShell** hoặc **CMD** tại thư mục gốc của dự án trên Windows:
 

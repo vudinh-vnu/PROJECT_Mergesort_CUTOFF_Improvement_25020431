@@ -1,0 +1,13 @@
+# Bytecode Java và thư mục build
+bin/
+*.class
+
+# Cấu hình IDE cá nhân
+.vscode/
+.idea/
+*.iml
+
+# Tệp tạm thời hệ thống
+Thumbs.db
+Desktop.ini
+.DS_Store

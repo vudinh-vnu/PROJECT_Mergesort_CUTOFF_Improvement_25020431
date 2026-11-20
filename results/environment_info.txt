@@ -1,0 +1,38 @@
+=================================================================
+EXPERIMENT ENVIRONMENT & REPRODUCIBILITY METADATA
+=================================================================
+Status                 : COMPLETED
+Start Time             : 2026-11-20 11:05:07
+End Time               : 2026-11-20 11:25:29
+Total Elapsed (algs4)  : 1222.30 seconds (20.37 minutes)
+
+--- SYSTEM & HARDWARE ---
+OS Name                : Windows 11
+OS Version             : 10.0
+OS Architecture        : amd64
+Available Logical Cores: 8
+
+--- JAVA & JVM ---
+Java Version           : 26.0.1
+Java Vendor            : Oracle Corporation
+JVM Name               : OpenJDK 64-Bit Server VM
+JVM Version            : 26.0.1+8-34
+JVM Input Arguments    : [-Xms1536m, -Xmx1536m, -XX:+AlwaysPreTouch]
+Heap Max (-Xmx)        : 1536.00 MB
+Heap Total (Committed) : 1536.00 MB
+Assertions Enabled     : false
+
+--- EXPERIMENT PARAMETERS ---
+Phase Selected         : all
+Quick Mode             : false
+Timer API (Trials)     : System.nanoTime() -> milliseconds
+Timer API (Total Run)  : edu.princeton.cs.algs4.Stopwatch
+Base Data Seed         : 20261120
+Order Shuffle Seed     : 2026112099
+CUTOFF Grid            : [1, 2, 4, 6, 7, 8, 9, 10, 12, 14, 16, 20, 24, 32, 48, 64, 96, 128]
+Phase 1A Primary N     : 1250000 (15 trials/dist)
+Phase 1B Multi-N       : [1048576, 1500000, 1750000] (11 trials)
+Phase 2 Ops Count N    : 1250000 (CountingInteger wrapper)
+Phase 3 Doubling Sizes : [65536, 131072, 262144, 524288, 1048576, 2097152, 4194304, 8388608]
+Detected Opt CUTOFF    : 6
+Execution Order        : Warm-up -> Phase 1 -> Phase 3 -> Phase 2 (monomorphic JIT preservation)
